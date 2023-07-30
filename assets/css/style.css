@@ -1,0 +1,107 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&family=Roboto:ital@1&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* reset defautl */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    /*border: 1px solid white;*/
+}
+
+/* Header */
+.header__top__main {
+    background-color: #000;
+    width: 100%;
+}
+
+.container__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 270px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* nav */
+.menu .menu-item {
+    display: inline-block;
+    background-color: blueviolet;
+    padding: 20px 10px;
+    /* top, right, bottom, left */
+    color: #fff;
+    border-bottom: solid 5px;
+    font-size: 15px;
+    
+}
+
+.menu .item-color1 {
+    border-bottom-color: #2ABDBB;
+}
+.menu .item-color1:hover {
+    border-bottom-color:blueviolet;
+    background-color: #2ABDBB;
+}
+
+.menu .item-color2 {
+    border-bottom-color: #EA4498;
+}
+.menu .item-color2:hover {
+    border-bottom-color:blueviolet;
+    background-color: #EA4498;
+}
+
+.menu .item-color3 {
+    border-bottom-color: #009CDD;
+}
+.menu .item-color3:hover {
+    border-bottom-color:blueviolet;
+    background-color: #009CDD;
+}
+
+.menu .item-color4 {
+    border-bottom-color: #dbad42;
+}
+.menu .item-color4:hover {
+    border-bottom-color:blueviolet;
+    background-color: #dbad42;
+}
+
+.menu .item-color5 {
+    border-bottom-color: #42bb80;
+}
+.menu .item-color5:hover {
+    border-bottom-color:blueviolet;
+    background-color: #42bb80;
+}
+
+
+/*transition menu */
+.menu .menu-item:hover{
+    border-block-width: 8px;
+    padding-bottom: 16px;
+    transition: ease .2s all;
+}
