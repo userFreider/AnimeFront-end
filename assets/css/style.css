@@ -127,23 +127,23 @@ a {
 }
 
 .img2{
-    background-image: url('https://somoskudasai.com/wp-content/uploads/2019/08/1-13.jpg'); 
+    background-image: url('/assets/img/img2.jpg'); 
 }
 
 .img3{
-    background-image: url('https://images7.alphacoders.com/129/1292434.jpg'); 
+    background-image: url('/assets/img/img3.jpg'); 
 }
 .img4{
-    background-image: url('https://somoskudasai.com/wp-content/uploads/2022/12/kimetsu-no-yaiba-1.jpg'); 
+    background-image: url('/assets/img/img4.jpg'); 
 }
 
 
 .img5{
-    background-image: url('https://pics.filmaffinity.com/Kenshin_El_Guerrero_Samuraai_Serie_de_TV-580384074-large.jpg'); 
+    background-image: url('/assets/img/img5.jpg'); 
 }
 
 .img6{
-    background-image: url('https://www.jeumobi.com/wp-content/uploads/2022/12/hunterxhunter-mobile-game-early-access-china.jpg'); 
+    background-image: url('/assets/img/img6.jpg'); 
 }
 
 
@@ -230,28 +230,6 @@ main{
 
 
 
-/* section articles */
-.image{
-    display: inline-block;
-    width: 13%;
-}
-.image img{
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: 0.3s ease-in-out;
-
-}
-.zom__in{
-    transform:scale(1) ;
-}
-.zom__in:hover img{
-    transform:scale(1.5) ;
-    
-}
-figure{
-    overflow: hidden;
-    margin: 0 10px;
-}
 
 
+/* slider */
