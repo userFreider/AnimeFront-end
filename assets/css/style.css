@@ -105,3 +105,153 @@ a {
     padding-bottom: 16px;
     transition: ease .2s all;
 }
+
+
+/* main */
+.iamge__article{
+
+    width: 379px;
+    height: 240px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    border-radius: 7px;
+    cursor: pointer;
+    
+}
+
+
+
+.img1{
+    background-image: url('/assets/img/img-one-piece.jpeg');
+}
+
+.img2{
+    background-image: url('https://somoskudasai.com/wp-content/uploads/2019/08/1-13.jpg'); 
+}
+
+.img3{
+    background-image: url('https://images7.alphacoders.com/129/1292434.jpg'); 
+}
+.img4{
+    background-image: url('https://somoskudasai.com/wp-content/uploads/2022/12/kimetsu-no-yaiba-1.jpg'); 
+}
+
+
+.img5{
+    background-image: url('https://pics.filmaffinity.com/Kenshin_El_Guerrero_Samuraai_Serie_de_TV-580384074-large.jpg'); 
+}
+
+.img6{
+    background-image: url('https://www.jeumobi.com/wp-content/uploads/2022/12/hunterxhunter-mobile-game-early-access-china.jpg'); 
+}
+
+
+
+.img__degrade{
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(to top, rgba(0,0,0, .5) 0%, rgba(0,0,0,0) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+   
+}
+.top{
+    position: absolute;
+    display: inline-block;
+    top: 10px;
+    left: 10px;
+    width: 34px;
+    height: 34px;
+    font-size: 1.2rem;
+    line-height: 35px;
+    background-color: red;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    border-radius:100%;
+}
+.img__degrade{
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+
+@media(max-width:1187px) {
+    .container__top{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .iamge__article{
+        flex-grow: 1;
+    }
+    
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto;
+    height: 100%;
+}
+
+.span6{
+    grid-column: span 6;
+}
+
+
+.background{
+    background-color: #000;
+}
+.tex__content{
+    background-color: #2ABDBB;
+}
+
+/* main article */
+.container__images{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+main{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* section articles */
+.image{
+    display: inline-block;
+    width: 13%;
+}
+.image img{
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: 0.3s ease-in-out;
+
+}
+.zom__in{
+    transform:scale(1) ;
+}
+.zom__in:hover img{
+    transform:scale(1.5) ;
+    
+}
+figure{
+    overflow: hidden;
+    margin: 0 10px;
+}
+
+
